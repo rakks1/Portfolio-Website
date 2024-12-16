@@ -205,7 +205,7 @@ border-radius: 0%;
     background-color: rgb(255, 255, 255);   
   }
 
-#homebut{
+#homebutpc{
      display: flex;
      position: fixed;
      bottom: 100px;
@@ -213,11 +213,13 @@ border-radius: 0%;
      z-index: 6; 
      color: black !important;
 }
-#homebut .icon-100{ 
+#homebutpc .icon-100{ 
   color: black;
 }
 
-
+#homebutmobile{
+  display: none;
+}
 
 
 
@@ -787,19 +789,25 @@ left: 50px;
       }
       
       #btngrp{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         position: absolute;
         bottom: -150px;
       }
       #git{
         width: 100%;
-        margin-right: 20px;
         position: relative;
         top: -10px;
-        left: -2px;
+   
       }
 
-      #homebut{
+      #downr{
+
+      }
+
+      #homebutpc{
         display: none;
       }
 
@@ -829,6 +837,8 @@ left: 50px;
       }
       #abtp{
         text-align: center;
+        letter-spacing: 1px;
+        word-spacing: 2px;
         line-height: 1.2;
         font-size: 1.6vh;
       }
@@ -978,7 +988,15 @@ left: 50px;
     }
 
 
-
+    #homebutmobile{
+      display: flex;
+      position: fixed;
+      top: 40px;
+      right: 40px;
+      z-index: 6; 
+      color: black !important;
+ }
+ 
 
 
 
