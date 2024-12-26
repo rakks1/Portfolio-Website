@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="shortcut icon" href="icon1.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
 </head>
 
-<body class="container-xxxl">
+<body class="container-xxxl bg-pan-left">
 
     <nav class="container-xxxxl" id="sticky">
         <div class="image"><img src="logo.png" id="logo" class="rotate-scale-down-ver" alt=""></div>
@@ -32,6 +34,11 @@
       </svg></a>
     </div>
 
+    <div class="mobilemenu">
+        <div id="menuname"><a href="#abt" class="navh1">About</a><a href="#exp" class="navh1">Experience</a><a href="#skills" class="navh1">Skills</a><a href="#projects" class="navh1">Projects</a><a href="contact.html" class="navh1">Contact</a></div>
+        <div id="menu1"><i class="bi bi-info-square"></i><i class="bi bi-person-workspace"></i><i class="bi bi-code-square"></i><i class="bi bi-folder-check"></i><i class="bi bi-person-lines-fill"></i></div>
+    </div>
+
 
 <section class="container-xxxl onesec slide-top"  id="home">
 
@@ -39,8 +46,26 @@
         <div id="details" class="container">
             <div class="container-xl" id="myintro">
                 <p id="name1">Hi, my name is</p>
-                <h2 id="name2">Rakesh Kumar S</h2>
-                <p id="name1" class="n3">Emerging Web Designer In Chennai !</p> 
+                <h2 id="name2" class="tracking-in-contract-bck waviy"> 
+                    <div class="d-inline-block">
+                    <span style="--i:1">R</span>
+                    <span style="--i:2">A</span>
+                    <span style="--i:3">K</span>
+                    <span style="--i:4">E</span>
+                    <span style="--i:5">S</span>
+                    <span style="--i:6">H</span></div>
+                    <span style="--i:7"> </span>
+                    <div class="d-inline-block">
+                    <span style="--i:8">K</span>
+                    <span style="--i:9">U</span>
+                    <span style="--i:10">M</span>
+                    <span style="--i:11">A</span>
+                    <span style="--i:12">R</span>
+                    <span style="--i:13"> </span></div>
+                    <span style="--i:14">S</span>
+                </h2>
+                <p id="name1" class="n3"><span class="iam">I'm a</span>
+                    <span class="text"></span></p> 
     
                 <div class="icgrp container">
                     <div class="stick">
@@ -49,14 +74,18 @@
                         <p><a href="mailto:rakeshkumarneelankarai@gmail.com"><i class="bi bi-envelope icon-100"></i></a></p>
                         <p><a href="https://api.whatsapp.com/send?phone=918667295448"><i class="bi bi-whatsapp icon-100"></i></a></p>
                     </div>
-                </div>   
+                </div> 
+                
+
+<!-- <div class="conta"><p class="trendy-text">"Emerging web designer eager to contribute creativity and technical skills."</p></div> -->
+
             </div>
     
             <div id="profileimageintro" class="container"><img src="rakks.jpeg" class="myimg" alt=""></div>
     
             <ul id="btngrp">   
-                <li><a class="dtbutton" id="git" href="contact.html">GET IN TOUCH</a></li>
-                <li><a class="dtbutton" id="downr" href="Rakesh Kumar S Profile.pdf" download="Rakesh Kumar S Profile">DOWNLOAD RESUME <img src="./logos/down.png" class="downimg ps-1" alt=""></a></li>
+                <li><a class="dtbutton btn-grad" id="git" href="contact.html">GET IN TOUCH</a></li>
+                <li><a class="dtbutton btn-grad" id="downr" href="Rakesh Kumar S Profile.pdf" download="Rakesh Kumar S Profile">DOWNLOAD RESUME <img src="./logos/down.png" class="downimg ps-1" alt=""></a></li>
             </ul>
         </div>
     </div>
@@ -129,7 +158,7 @@
                 <li><strong>JavaScript</strong>: Proficient in modern JavaScript, including ES6+.</li>
                 <li><strong>Bootstrap</strong>: Experience in rapid UI development with Bootstrap.</li>
                 <li><strong>React.js</strong>: Building single-page applications using React.</li>
-                <li><strong>Node.js</strong>: Developing server-side applications with Node.js.</li>
+                <li><strong>Node.js</strong>: Basic JavaScript applications with Node.js.</li>
             </ul>
     
             <h4>Web Design & Layout</h4>
@@ -164,9 +193,9 @@
         <div class="container slide-top"><h1 id="">PROJECTS</h1>
             <div class="gricent">
             <div class="gridp container-xs">
-            <div class="tone"><h4> Front-End Mentor Challenges</h4></div>
+            <div class="tone"><h4 class="ms-4 txt-align-center">Front-End Mentor Challenges</h4></div>
             <div class="container_block1">
-                <img alt="" class="container_img1">
+                <a href="https://www.frontendmentor.io/profile/rakks1"><img alt="" class="container_img1"></a>
                 <h3 class="container_name1"></h3>
 
                 <p class="container_text1"></p>
@@ -175,7 +204,7 @@
             <div class="ttwo"><h4>Internship Projects</h4></div>
             <div class="container_block2">
                 <img alt="" class="container_img2">
-                <h3 class="container_name2"></h3>
+                <a href=""></a><h3 class="container_name2"></h3>
 
                 <p class="container_text2"></p>
             </div>
@@ -189,6 +218,7 @@
             </div>
 
         </div>
+        <ul id="projectinfo"> <li> <h2>Frontend Mentor Challenges</h2> <p><strong>Description:</strong> Completed various challenges using HTML, CSS, and JavaScript.</p> <p><strong>Tech:</strong> HTML, CSS, JavaScript.</p> <p><strong>Link:</strong> <a href="https://www.frontendmentor.io/profile/rakks1">Frontend Mentor Challenges</a></p> </li> <li> <h2>Handicap Empowerment Website</h2> <p><strong>Description:</strong> Developed an accessible website for individuals with disabilities.</p> <p><strong>Tech:</strong> HTML & CSS</p> <p><strong>Link:</strong> <a href="https://github.com/rakks1/Public/tree/main/Handicap">Handicap Assistance Website</a></p> </li> <li> <h2>Portfolio Website</h2> <p><strong>Description:</strong> Created a personal portfolio showcasing skills and projects.</p> <p><strong>Tech:</strong> HTML, CSS, JavaScript.</p> <p><strong>Link:</strong> <a href="#home">Portfolio Website</a></p> </li> </ul>
         </div>
         </div>
 </section>
@@ -211,4 +241,13 @@
 
 </body>
 <script src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
+<script>
+    var typing=new Typed(".text", {
+        strings: ["","Front-End Developer","Web Designer", "Web Developer", "UI/UX Designer", "Freelancer",],
+        typeSpeed: 100,
+        backSpeed: 40,
+        loop: true,
+    });
+ </script>
 </html>
