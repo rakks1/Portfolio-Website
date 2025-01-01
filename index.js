@@ -50,12 +50,15 @@ setInterval(()=>{
     {
         "name": "Handicap Website",
         "image":"https://github.com/rakks1/Public/blob/main/Handicap/handi.jpeg?raw=true",
-        "text":""
+        "text":"Visit My Page",
+        "link":"https://rakks1.github.io/Public/Handicap/index.html"
     },
     {
         "name": "Portfolio Website",
         "image":"https://github.com/rakks1/Public/blob/main/HTML/Screenshot_15-12-2024_202850_127.0.0.1.jpeg?raw=true",
-        "text":""
+        "text":"You're Here",
+        "link":"https://rakks1.github.io/Public/Handicap/index.html"
+
     },
   
 ]
@@ -64,6 +67,7 @@ let data=0
 let name = document.querySelector(".container_name2")
 let image = document.querySelector(".container_img2")
 let text= document.querySelector(".container_text2")
+let link= document.querySelector(".container_text2")
 
 //sync current data with html
 function testimonal() {
@@ -71,6 +75,7 @@ function testimonal() {
      image.src=current.image   
      name.textContent=current.name   
      text.textContent=current.text  
+     link.href=current.link
      data++
 
 //loop
