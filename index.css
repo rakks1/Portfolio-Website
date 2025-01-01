@@ -282,6 +282,8 @@ border-radius: 0%;
     transition: top 0.5s;
     position: relative;
     animation-name: slide-top;
+    scroll-behavior: smooth;
+
 }
 
 #abt{
@@ -318,6 +320,8 @@ border-radius: 0%;
     color: rgb(0, 0, 0);
     backdrop-filter: blur(2px);
     z-index: 2;
+    scroll-behavior: smooth;
+
 }
 #exp{
     font-size: 40px;
@@ -336,6 +340,8 @@ border-radius: 0%;
     height: 500px;
     padding-left: 20px;
     background-color: #0000001e;
+    scroll-behavior: smooth;
+
 
 }
 #exptitle{
@@ -382,6 +388,8 @@ border-radius: 0%;
     backdrop-filter: blur(2px);
     justify-content: center;
     z-index: 3;
+    scroll-behavior: smooth;
+
 }
 .swrap{
     width:85% ;
