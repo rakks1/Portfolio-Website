@@ -698,7 +698,7 @@ body{
 
 }
 
-@media screen and (min-width: 769px) and (max-width: 1000px) {
+@media screen and (min-width: 700px) and (max-width: 1000px) {
 
   body{
     height: 4800px;
@@ -845,9 +845,7 @@ left: 50px;
 
 }
 
-
-
-@media screen and (min-width: 300px) and (max-width: 768px) {
+@media screen and (min-width: 300px) and (max-width: 700px) {
 
   body{
     height: 6800px;
@@ -1004,7 +1002,7 @@ left: 50px;
         position: relative;
         height: 700px !important;
         z-index: 1;
-        top: 100px;
+        top: 200px;
       }
       .ewrap{
         width: 80% !important;
@@ -1025,7 +1023,7 @@ left: 50px;
         font-size: 2vh;
       }
       #expcontent{
-        font-size: 2vh ;
+        font-size: 70% ;
         line-height: 1!important;
         border-left: 0px !important;
       }
@@ -1100,7 +1098,7 @@ left: 50px;
      .gridp{
         text-align: center;
         display: grid;
-        grid-template-columns: 320px;
+        grid-template-columns: 300px;
         grid-template-rows: repeat(350px, 1fr);
         grid-template-areas: "tone" "one" "ttwo" "two" "tthree" "three" ;
         position: relative;
@@ -1112,9 +1110,14 @@ left: 50px;
         grid-row-gap: 50px;
         
     }
+    #abtmail{
+      font-size: 10px;
+    }
 
     #containerBlock{
      overflow: visible;
+     width: 100% ;
+     max-width: 300px;
     }
 
     .gridp h4{
@@ -1208,6 +1211,7 @@ left: 50px;
 
 
 }
+
 
 
 /* Trendy text styling */
