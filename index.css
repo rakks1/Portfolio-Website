@@ -502,7 +502,6 @@ textarea::placeholder{
     border: 1px solid gray;
 }
 
-
 #projectanc{
     width: 100%;
     height: 120px;
@@ -511,7 +510,6 @@ textarea::placeholder{
     position: relative;
     z-index: 1;
 }
-
 
 #projects{
     height: 1030px;
