@@ -57,7 +57,7 @@ setInterval(()=>{
         "name": "Portfolio Website",
         "image":"https://github.com/rakks1/Public/blob/main/HTML/Screenshot_15-12-2024_202850_127.0.0.1.jpeg?raw=true",
         "text":"You're Here",
-        "link":"https://rakks1.github.io/Public/Handicap/index.html"
+        "link":"index.html"
 
     },
   
