@@ -910,6 +910,8 @@ left: 50px;
 
     #sticky{
         box-shadow: none;
+        width: 50%;
+        font-size: 10px !important;
     }
 
     #logo{

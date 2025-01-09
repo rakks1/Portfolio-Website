@@ -97,18 +97,13 @@ setInterval(()=>{
 {
     let testimonal_data1 =[
     {
-        "name": "Application To Prevent IP Spoofing Attack",
-        "image":"https://github.com/rakks1/Public/blob/main/HTML/Picture1.jpg?raw=true",
+        "name": "Apple Blog Website Design",
+        "image":"https://raw.githubusercontent.com/rakks1/Public/refs/heads/main/wpapple1.png",
         "text":""
     },
     {
-        "name": "Application To Prevent IP Spoofing Attack",
-        "image":"https://github.com/rakks1/Public/blob/main/HTML/Picture2.jpg?raw=true",
-        "text":""
-    },
-    {
-        "name": "Application To Prevent IP Spoofing Attack",
-        "image":"https://github.com/rakks1/Public/blob/main/HTML/Picture3.jpg?raw=true",
+        "name": "Apple Blog Website Design",
+        "image":"https://raw.githubusercontent.com/rakks1/Public/refs/heads/main/wpapple2.png",
         "text":""
     }
 ]
