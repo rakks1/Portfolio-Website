@@ -51,7 +51,7 @@ setInterval(()=>{
         "name": "Handicap Website",
         "image":"https://github.com/rakks1/Public/blob/main/Handicap/handi.jpeg?raw=true",
         "text":"Visit My Page",
-        "link":"https://rakks1.github.io/Public/Handicap/index.html"
+        "link":"https://rakks1.github.io/Handicap-Empowerment/index.html"
     },
     {
         "name": "Portfolio Website",
